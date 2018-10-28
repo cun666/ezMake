@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLDDIR	Makefile	/^BLDDIR := $(TOP)\/build$/;"	m
+DEPDIR	Makefile	/^DEPDIR := $(TOP)\/depend$/;"	m
+INCLIB	Makefile	/^INCLIB := $(TOP)\/includes$/;"	m
+MAKE	Makefile	/^MAKE := make -j 2$/;"	m
+SRC	Makefile	/^SRC := $(TOP)\/src$/;"	m
+TEST_NO	includes/test.h	5;"	d
+TOP	Makefile	/^TOP = $(PWD)$/;"	m
+__H_TEST__	includes/test.h	2;"	d
+func1	src/test1.c	/^void func1(void){$/;"	f
+func2	src/test2.c	/^void func2(void){$/;"	f
+main	src/main.c	/^int main(void){$/;"	f
+objs	Makefile	/^objs := main.o test1.o test2.o$/;"	m
